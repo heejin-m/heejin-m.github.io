@@ -10349,16 +10349,8 @@ textarea.form-control {
     margin-right: auto;
 }
 .ftco-animate {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-  will-change: opacity, transform;
-}
-
-.ftco-animate.fadeInUp,
-.ftco-animate.fadeIn,
-.ftco-animate.animated {
   opacity: 1 !important;
-  transform: translateY(0) !important;
+  visibility: visible !important;
   animation: none !important;
+  transform: none !important;
 }
