@@ -46,7 +46,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7 ftco-animate">
 					<p class="eyebrow">UNITY CLIENT DEVELOPER</p>
-					<h1 class="hero-title">기초부터<br>글로벌 서비스까지</h1>
+					<h1 class="hero-title">출시부터<br>라이브까지 </h1>
 					<p class="hero-copy">
 						<span class="text-mint-color">수집형 RPG <데미안전기></span> ▪ <span class="text-mint-color">헌팅 액션 RPG <라스트헌터 K : 서울></span> 제작</span> <br>글로벌 출시 및 라이브 서비스를 경험한
 						클라이언트 개발자 <br><span class="hero-name"></span>
@@ -55,6 +55,10 @@
 						<a target="_blank"
 							href="https://suave-sunfish-f3b.notion.site/PORTFOLIO-67d41149d5114733b972c362589cf9f1?pvs=74"
 							class="btn btn-primary py-3 px-5">노션 포트폴리오</a>
+
+						<a target="_blank"
+							href="https://github.com/heejin-m"
+							class="btn btn-dark py-3 px-5">깃 허브</a>
 						
 						<a target="_blank"
 							href="https://heeji-ny.tistory.com/"
@@ -119,15 +123,15 @@
 					<h2>모바일 라이브 RPG 2종 경험의 개발자</h2>
 					<p>
 						안녕하세요. 5년차 클라이언트 개발자 손희진입니다. 
-						<br><span class="text-deepblue-color">
-  						수집형 RPG &lt;데미안전기&gt;와 헌팅 액션 RPG &lt;라스트헌터 K : 서울&gt;을 제작</span>하고 
-						<br><span class="text-deepblue-color">글로벌 출시 및 라이브 서비스</span>를 한 경험이 있습니다.
+						<br><span class="text-deepblue-color"><span class="highlight">
+  						수집형 RPG &lt;데미안전기&gt;와 헌팅 액션 RPG &lt;라스트헌터 K : 서울&gt;을 제작</span></span>하고 
+						<br><span class="text-deepblue-color"><span class="highlight">글로벌 출시 및 라이브 서비스</span></span>를 한 경험이 있습니다.
 					</p>
 					
 					<p>
-						코드를 작성할 때 <span class="text-deepblue-color">"나중에 이 코드를 보는 사람이 쉽게 이해할 수 있을까?"</span>를 생각합니다.
-						<br>Unity 모바일 라이브 서비스 게임 2종을 개발 및 서비스 하는 동안<br>
+						<br>Unity 모바일 <span class="text-deepblue-color"><span class="highlight">라이브 서비스 게임 2종</span></span>을 개발 및 서비스 하는 동안<br>
 						<span class="text-deepblue-color">클라이언트 공통 구조를 설계하고 확장성과 유지보수성을 고려한 개발</span>을 해왔습니다.
+						코드를 작성할 때 <span class="text-deepblue-color"><span class="highlight">"나중에 이 코드를 보는 사람이 쉽게 이해할 수 있을까?"</span></span>를 생각합니다.
 					</p>
 
 					<p>
@@ -167,7 +171,8 @@
 						<span class="highlight">연합</span>,
 <span class="highlight">채팅</span>,
 <span class="highlight">튜토리얼</span>를 담당하며 단순 구현을 넘어 <span class="highlight">예외 처리와 확장성, 유지보수성</span>을 깊게 고민하며 작업했습니다.
-예를들어 튜토리얼에서는 
+<br><br>예를 들어 튜토리얼에서는 진행 상태를 관리하는 <span class="highlight">TutorialModel</span>과 실행 흐름을 담당하는 <span class="highlight">TutorialManager</span>, 개별 튜토리얼을 처리하는 <span class="highlight">TutorialPlayer</span>를 분리하여 설계했습니다.
+<br>결과적으로 새로운 튜토리얼 추가 시 기존 공통 코드를 수정하지 않고, Enum 이름 기반의 Player Prefab만 추가해 확장할 수 있도록 구현했습니다.
 <br>해당 프로젝트에 AppLovin <span class="highlight">광고 SDK를 연동</span>한 경험이 있습니다.
 						</p>
 						<div class="project-tags">
@@ -194,8 +199,9 @@
 						<span class="project-type">헌팅 액션 RPG · 글로벌 라이브</span>
 						<h3>라스트 헌터 K : 서울</h3>
 						<p>프로젝트 세팅 단계부터 참여해 글로벌 런칭 후 현재 라이브 서비스 중인 프로젝트입니다.
-<br>시스템 UI, 상품·이벤트·레드닷 알림, 사운드 매니저, 진동 시스템 등 게임 전반의 <span class="highlight">메인 프레임워크를 설계하고 구현</span>했습니다.
-<br><span class="highlight">iOS/Android 인앱결제(IAP) 연동 및 결제 플로우 구현 경험</span>을 쌓았습니다.</p>
+<br>상품, 이벤트, 레드닷 알림, 시스템 UI 등 게임 전반의 <span class="highlight">공통 클라이언트 구조를 설계하고 구현</span>했습니다.
+<br>특히 서버 데이터, 클라이언트 데이터, 스토어 IAP 정보를 <span class="highlight">통합 상품 모델(ProductTotalInfo)</span>로 구성하여 UI가 단일 데이터 모델만 참조하도록 설계했습니다.
+<br>또한 <span class="highlight">iOS / Android 인앱결제(IAP)</span>와 구매 플로우, 예외 처리, 게스트 계정 UX까지 구현했습니다.</p>
 
 						
 						<div class="project-tags">
@@ -257,7 +263,7 @@
 </a>를 통해 실제 구현 코드도 함께 확인하실 수 있습니다.						</p>
 						<div class="project-tags">
 							<span>Unity</span><span>C#</span><span>Addressables</span><span>Architecture</span>
-							<span>Data Pipeline</span><span>Design Pattern</span>
+							<span>Data Pipeline</span><span>Design Pattern</span><span>Strategy Pattern</span>
 						</div>
 						
 						<div class="project-video">

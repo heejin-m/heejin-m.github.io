@@ -63,7 +63,7 @@ body {
   outline: 0 !important; }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     line-height: 3.9;   /* 줄 간격 */
     margin-bottom: 2rem; /* 아래 문단과 간격 */
@@ -9818,7 +9818,7 @@ textarea.form-control {
 
 .underline {
   text-decoration: underline;
-  text-decoration-color: #82f7e5; /* 밑줄 색 */
+  text-decoration-color: #178af6; /* 밑줄 색 */
   text-decoration-thickness: 2px; /* 밑줄 두께 */
   text-underline-offset: 3px;     /* 글자와 밑줄 간격 */
 }
@@ -9846,6 +9846,18 @@ textarea.form-control {
 
 .highlight2:hover {
     color: #0674e7 !important;
+}
+
+.highlight3,
+.highlight3:visited {
+    color: #044f9f !important;
+    text-decoration: none;
+    display: inline;
+    padding: 0 2px;
+    background: linear-gradient(
+        transparent 20%,
+        rgba(130, 123, 229, 0.15) 20%
+    );
 }
 
 .hero-name:after {
