@@ -62,6 +62,13 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+.hero-title {
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 3.9;   /* 줄 간격 */
+    margin-bottom: 2rem; /* 아래 문단과 간격 */
+}
+
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -70,7 +77,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.8rem; }
 
 p {
   margin-top: 0;
@@ -9767,7 +9774,16 @@ textarea.form-control {
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 2px;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+.eyebrow2,
+.section-kicker {
+  color: #a3e635;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
 }
 
 .unity-hero h1 {
@@ -9790,6 +9806,46 @@ textarea.form-control {
   display: inline-block;
   color: #f8fafc;
   font-weight: 900;
+}
+
+.text-mint-color {
+  color: #82f7e5;
+}
+
+.text-deepblue-color {
+  color: #191b12;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #82f7e5; /* 밑줄 색 */
+  text-decoration-thickness: 2px; /* 밑줄 두께 */
+  text-underline-offset: 3px;     /* 글자와 밑줄 간격 */
+}
+
+.highlight {
+  display: inline;
+  padding: 0 2px;
+  background: linear-gradient(
+    transparent 20%,
+    rgba(130, 247, 229, 0.65) 70%
+  );
+}
+
+.highlight2,
+.highlight2:visited {
+    color: #044f9f !important;
+    text-decoration: none;
+    display: inline;
+    padding: 0 2px;
+    background: linear-gradient(
+        transparent 20%,
+        rgba(130, 123, 229, 0.25) 70%
+    );
+}
+
+.highlight2:hover {
+    color: #0674e7 !important;
 }
 
 .hero-name:after {
@@ -9907,6 +9963,7 @@ textarea.form-control {
 
 .console-line.success {
   color: #a3e635;
+  font-size: 16px;
 }
 
 .unity-section {
